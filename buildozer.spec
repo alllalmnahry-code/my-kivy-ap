@@ -1,3 +1,5 @@
+[app]
+
 # (str) Title of your application
 title = My Kivy App
 
@@ -51,3 +53,6 @@ android.entrypoint = org.kivy.android.PythonActivity
 
 # (bool) Use --private data storage for app
 p4a.branch = stable
+
+# Accept Android SDK licenses automatically during CI builds
+android.accept_sdk_license = True
